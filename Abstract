@@ -1,1 +1,12 @@
-
+                                      Abstract
+The primary goal of this project is to evaluate the performance of pre-trained
+language models (LLMs) in translating Bengali to English. We manually created a
+dataset of 200 Bengali-English sentence pairs, classified by sentence length and
+type, to provide a diverse range of translation scenarios. Various foundational
+models, including LLAMA, Gemma3 Bhasini, and at least ten other models from
+Hugging Face, were utilized for translation. The performance of these models was
+evaluated using standard machine translation metrics, such as BLEU and ROUGE,
+to compare the quality of translations with human-generated references. This
+project aims to identify the best-performing models for Bengali-English translation
+and highlight the strengths and weaknesses of different models in capturing
+linguistic nuances. 
