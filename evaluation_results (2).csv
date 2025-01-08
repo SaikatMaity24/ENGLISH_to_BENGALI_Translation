@@ -1,0 +1,30 @@
+Model,BLEU,ROUGE_L,METEOR,BERTScore_F1,Error
+facebook/mbart-large-50-many-to-many-mmt,4.393483200096508,0.0,0.2289591760788309,0.7831471165021261,
+Helsinki-NLP/opus-mt-en-bn,,,,,"Helsinki-NLP/opus-mt-en-bn is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`"
+facebook/nllb-200-distilled-600M,27.58986328000105,0.0,0.4693682320590847,0.8904201752609677,
+google/mt5-small,0.11867736759145107,0.0,0.0026903445433267294,0.5561234652996063,
+ai4bharat/indictrans-v2-en-bn,,,,,"ai4bharat/indictrans-v2-en-bn is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`"
+ai4bharat/indic-bert,,,,,"Could not load model ai4bharat/indic-bert with any of the following classes: (<class 'transformers.models.auto.modeling_auto.AutoModelForSeq2SeqLM'>, <class 'transformers.models.auto.modeling_tf_auto.TFAutoModelForSeq2SeqLM'>). See the original errors:
+
+while loading with AutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/dist-packages/transformers/pipelines/base.py"", line 283, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File ""/usr/local/lib/python3.10/dist-packages/transformers/models/auto/auto_factory.py"", line 567, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized configuration class <class 'transformers.models.albert.configuration_albert.AlbertConfig'> for this kind of AutoModel: AutoModelForSeq2SeqLM.
+Model type should be one of BartConfig, BigBirdPegasusConfig, BlenderbotConfig, BlenderbotSmallConfig, EncoderDecoderConfig, FSMTConfig, GPTSanJapaneseConfig, LEDConfig, LongT5Config, M2M100Config, MarianConfig, MBartConfig, MT5Config, MvpConfig, NllbMoeConfig, PegasusConfig, PegasusXConfig, PLBartConfig, ProphetNetConfig, SeamlessM4TConfig, SeamlessM4Tv2Config, SwitchTransformersConfig, T5Config, UMT5Config, XLMProphetNetConfig.
+
+while loading with TFAutoModelForSeq2SeqLM, an error is thrown:
+Traceback (most recent call last):
+  File ""/usr/local/lib/python3.10/dist-packages/transformers/pipelines/base.py"", line 283, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File ""/usr/local/lib/python3.10/dist-packages/transformers/models/auto/auto_factory.py"", line 567, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized configuration class <class 'transformers.models.albert.configuration_albert.AlbertConfig'> for this kind of AutoModel: TFAutoModelForSeq2SeqLM.
+Model type should be one of BartConfig, BlenderbotConfig, BlenderbotSmallConfig, EncoderDecoderConfig, LEDConfig, MarianConfig, MBartConfig, MT5Config, PegasusConfig, T5Config.
+
+
+"
